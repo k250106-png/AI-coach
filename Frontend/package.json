@@ -1,0 +1,49 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.15.15",
+    "@mui/material-nextjs": "^5.15.15",
+    "@react-three/drei": "^9.99.0",
+    "@react-three/fiber": "^8.15.19",
+    "@splidejs/react-splide": "^0.7.12",
+    "@types/three": "^0.184.0",
+    "axios": "^1.6.8",
+    "firebase": "^12.12.1",
+    "firebase-admin": "^13.8.0",
+    "framer-motion": "^11.1.7",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.14.0",
+    "next": "^14.2.5",
+    "next-themes": "^0.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-markdown": "^9.0.1",
+    "recharts": "^3.8.1",
+    "simple-parallax-js": "^6.3.3",
+    "swiper": "^12.1.3",
+    "three": "^0.184.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "apk:guide": "echo See docs/APK_TWA_SETUP.md",
+    "apk:twa:init": "echo Run: bubblewrap init --manifest https://ai-interview-bwai.vercel.app/manifest.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "AI Interview Coach",
+  "short_name": "InterviewCoach",
+  "description": "Practice interviews with AI feedback, coding rounds, and speech analytics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#010614",
+  "background_color": "#010614",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
