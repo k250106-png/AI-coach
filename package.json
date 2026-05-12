@@ -1,0 +1,16 @@
+{
+  "name": "ai-coach",
+  "private": true,
+  "workspaces": [
+    "Backend",
+    "Frontend"
+  ],
+  "scripts": {
+    "build:backend": "npm --workspace Backend run build",
+    "build:frontend": "npm --workspace Frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "npm --workspace Backend start",
+    "start:frontend": "npm --workspace Frontend start",
+    "start": "sh ./start.sh"
+  }
+}
