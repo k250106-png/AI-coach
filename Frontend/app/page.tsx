@@ -41,7 +41,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="hero-stats" aria-label="Vetto platform stats">
+        <div className="hero-stats" aria-label="Mira platform stats">
           {[
             ['10K+', 'Mock Interviews'],
             ['95%', 'Success Rate'],
@@ -66,7 +66,7 @@ export default function HomePage() {
           <span className="section-kicker">Live readiness stack</span>
           <h2 className="gradient-text">Practice, optimize, apply, and improve from one command center.</h2>
           <p>
-            Vetto connects mock interviews, speech telemetry, LinkedIn profile scoring, Pakistani job context, and recruiter intelligence in one polished workflow.
+            MIRA connects mock interviews, speech telemetry, LinkedIn profile scoring, Pakistani job context, and recruiter intelligence in one polished workflow.
           </p>
         </div>
       </div>
